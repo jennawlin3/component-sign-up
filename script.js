@@ -21,6 +21,7 @@ d.addEventListener("input", (e) => {
 			inputFN.style.borderColor = "var(--red)"
 			errorFN.style.display = "block";
 			iconFN.style.display = "flex";
+			inputFN.classList.add("hidden");
 		} else {
 			inputFN.style.borderColor = "#ddd"
 			errorFN.style.display = "none";
@@ -34,6 +35,7 @@ d.addEventListener("input", (e) => {
 			inputLN.style.borderColor = "var(--red)"
 			errorLN.style.display = "block";
 			iconLN.style.display = "flex";
+			inputLN.classList.add("hidden");
 		} else {
 			inputLN.style.borderColor = "#ddd"
 			errorLN.style.display = "none";
@@ -60,6 +62,7 @@ d.addEventListener("input", (e) => {
 			inputPassword.style.borderColor = "var(--red)";
 			errorPassword.style.display = "block";
 			iconPassword.style.display = "flex";
+			inputPassword.classList.add("hidden");
 		} else {
 			inputPassword.style.borderColor = "#ddd"
 			errorPassword.style.display = "none";

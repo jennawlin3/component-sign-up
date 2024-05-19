@@ -105,6 +105,10 @@ input::placeholder {
 	font-weight: 700;
 }
 
+.hidden::placeholder {
+	color: #fff;
+}
+
 .invalid::placeholder {
 	color: var(--red);
 }
